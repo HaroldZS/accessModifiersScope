@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=UserAdmin
+comment1.params=userName\ email\ password
+comment1.target=UserAdmin(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getPassword()
+comment3.params=password
+comment3.target=void\ setPassword(java.lang.String)
+numComments=4
