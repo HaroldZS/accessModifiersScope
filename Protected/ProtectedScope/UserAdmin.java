@@ -1,8 +1,8 @@
-package Public.PublicScope;
+package Protected.ProtectedScope;
 
 public class UserAdmin extends User
 {
-    public String password;
+    protected String password;
     
     public UserAdmin(String userName, String email,String password)
     {
@@ -11,9 +11,9 @@ public class UserAdmin extends User
     }
     
     public void changeUserNamebysuClass(){
-         System.out.println(this.userName);
-         this.userName = "Hola";
-      }
+        System.out.println(this.userName);
+        this.userName = "Hola";
+    }
     
     public String getPassword(){
         return this.password;
@@ -21,5 +21,9 @@ public class UserAdmin extends User
     
     public void setPassword(String password){
         this.password = password;
+    }
+    
+    public void testPrivateMethodCallBySubClass(){
+        this.protectedUserMethod();
     }
 }

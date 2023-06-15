@@ -10,6 +10,13 @@ public class UserAdmin extends User
         this.password = password;
     }
     
+    /* Private attributes neither can be called nor modified by a subClass directly
+      public void changeUserNamebysuClass(){
+         System.out.println(this.userName);
+         this.userName = "Hola";
+      }
+    */
+    
     public String getPassword(){
         return this.password;
     }

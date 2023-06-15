@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SubClassUser
+comment1.params=userName\ email\ attribute
+comment1.target=SubClassUser(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getAttribute()
+comment3.params=
+comment3.target=void\ setAttribute()
+comment4.params=
+comment4.target=void\ changeUserNamebysuClass()
+comment5.params=
+comment5.target=void\ testPrivateMethodCallBySubClass()
+numComments=6
