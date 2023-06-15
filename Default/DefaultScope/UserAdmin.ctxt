@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=UserAdmin
+comment1.params=userName\ email\ password
+comment1.target=UserAdmin(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ changeUserNamebysuClass()
+comment3.params=
+comment3.target=void\ testMethodByUser()
+comment4.params=
+comment4.target=java.lang.String\ getPassword()
+comment5.params=password
+comment5.target=void\ setPassword(java.lang.String)
+numComments=6

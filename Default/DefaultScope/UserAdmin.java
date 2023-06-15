@@ -1,8 +1,8 @@
-package Public.PublicScope;
+package Default.DefaultScope;
 
 public class UserAdmin extends User
 {
-    public String password;
+    String password;
     
     public UserAdmin(String userName, String email,String password)
     {
@@ -13,6 +13,10 @@ public class UserAdmin extends User
     public void changeUserNamebysuClass(){
          System.out.println(this.userName);
          this.userName = "Hola";
+    }
+    
+    public void testMethodByUser(){
+        this.defaultUserMethod();
     }
     
     public String getPassword(){
